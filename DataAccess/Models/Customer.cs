@@ -26,10 +26,13 @@ public partial class Customer
 
     public virtual Role? Role { get; set; }
 
-    public Customer(string emailAddress, string password, int roleId)
+    public Customer(string? customerFullName, string? telephone, string emailAddress, DateTime? customerBirthday, byte? customerStatus, string? password, int? roleId)
     {
-
+        CustomerFullName = customerFullName;
+        Telephone = telephone;
         EmailAddress = emailAddress;
+        CustomerBirthday = customerBirthday;
+        CustomerStatus = customerStatus;
         Password = password;
         RoleId = roleId;
     }
