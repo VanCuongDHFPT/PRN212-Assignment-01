@@ -79,6 +79,7 @@ D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net
 D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.AssemblyInfoInputs.cache
 D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.AssemblyInfo.cs
 D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.csproj.CoreCompileInputs.cache
+D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.sourcelink.json
 D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 A.4A89B323.Up2Date
 D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.dll
 D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\refint\PRN212 Assignment 01.dll

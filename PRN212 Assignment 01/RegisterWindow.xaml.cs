@@ -11,7 +11,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using DataAccess.Models;
 using Service.UserService;
 
 namespace PRN212_Assignment_01
@@ -45,7 +44,7 @@ namespace PRN212_Assignment_01
             else
             {
                 AccountService accountService = new AccountService();
-                bool result = accountService.AddCustomer(new DataAccess.Models.Customer(Email, password));
+                bool result = accountService.AddCustomer(new DataAccess.Models.Customer(Email, password,1));
 
                 if (result)
                 {

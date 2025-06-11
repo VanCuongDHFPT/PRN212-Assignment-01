@@ -72,10 +72,10 @@
                         <TextBox x:Name="txtHotelRating" Margin="0,4"/>
 
                         <!-- Buttons -->
-                        <WrapPanel Margin="0,10">
-                            <Button Content="Add" Width="75" Margin="5" Background="#4CAF50" Foreground="White"/>
-                            <Button Content="Update" Width="75" Margin="5" Background="#FFC107"/>
-                            <Button Content="Delete" Width="75" Margin="5" Background="#F44336" Foreground="White"/>
+                        <WrapPanel Margin="0,10" HorizontalAlignment="Left" Width="340">
+                            <Button x:Name="btnAddHotel" Content="Add" Width="75" Margin="5" Background="#4CAF50" Foreground="White" />
+                            <Button x:Name="btnUpdateHotel" Content="Update" Width="75" Margin="5" Background="#FFC107" />
+                            <Button  x:Name="btnDeleteHotel" Content="Delete" Width="75" Margin="5" Background="#F44336" Foreground="White"/>
                             <Button Content="Clear" Width="75" Margin="5"/>
                         </WrapPanel>
                     </StackPanel>
@@ -131,11 +131,11 @@
                         <TextBox x:Name="txtCustomerstatus" Margin="0,4"/>
 
                         <!-- Buttons -->
-                        <WrapPanel Margin="0,10">
+                        <WrapPanel Margin="0,10" HorizontalAlignment="Left" Width="340">
                             <Button Content="Add" Width="75" Margin="5" Background="#4CAF50" Foreground="White" Click="btnAdd_Click"/>
                             <Button Content="Update" Width="75" Margin="5" Background="#FFC107" Click="btnUpdate_Click"/>
-                            <Button Content="Delete" Width="75" Margin="5" Background="#F44336" Foreground="White" Click="btnDelete_Click" />
-                            <Button Content="Clear" Width="75" Margin="5" Click="btnClear_Click"/>
+                            <Button Content="Delete" Width="75" Margin="5" Background="#F44336" Foreground="White" Click="btnDelete_Click"/>
+                            <Button Content="Clear" Width="75" Margin="5" Background="#9E9E9E" Foreground="White" Click="btnClear_Click"/>
                         </WrapPanel>
                     </StackPanel>
 
@@ -152,6 +152,60 @@
                     </DataGrid>
                 </Grid>
             </TabItem>
+
+            <!-- ROOM TYPE MANAGEMENT TAB -->
+            <TabItem Header="Room Type Management">
+                <Grid Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="350"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- FORM -->
+                    <StackPanel Grid.Column="0" Margin="0,0,20,0">
+                        <TextBlock Text="Room Type Info" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                        <!-- Search -->
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                            <TextBox x:Name="txtSearchRoomTypeId" Width="100" Margin="0,0,10,0"/>
+                            <TextBox x:Name="txtSearchRoomTypeName" Width="150" Margin="0,0,10,0"/>
+                            <Button Content="Search" Width="80" Background="#1976D2" Foreground="White" Click="Button_SearchRoom" />
+                        </StackPanel>
+
+                        <TextBlock Text="Room Type ID" Visibility="Collapsed"/>
+                        <TextBox x:Name="txtRoomTypeId" Margin="0,4" Visibility="Collapsed"/>
+
+                        <TextBlock Text="Room Type Name"/>
+                        <TextBox x:Name="txtRoomTypeName" Margin="0,4"/>
+
+                        <TextBlock Text="Description"/>
+                        <TextBox x:Name="txtRoomTypeDescription" Margin="0,4"/>
+
+                        <TextBlock Text="Note"/>
+                        <TextBox x:Name="txtRoomTypeNote" Margin="0,4"/>
+
+                        <!-- Buttons -->
+                        <WrapPanel Margin="0,10" HorizontalAlignment="Left" Width="340">
+                            <Button x:Name="btnAdd"  Content="Add" Width="75" Margin="5" Background="#4CAF50" Foreground="White"  Click="Button_AddRoom"     />
+                            <Button  x:Name="btnUpdate"  Content="Update" Width="75" Margin="5" Background="#FFC107" Click="Button_UpdateRoom"  />
+                            <Button x:Name="btnDelete" Content="Delete" Width="75" Margin="5" Background="#F44336" Foreground="White" Click="Button_DeleteRoom" />
+                            <Button Content="Clear" Width="75" Margin="5" Background="#9E9E9E" Foreground="White" Click="Button_ClearRoom" />
+                        </WrapPanel>
+                    </StackPanel>
+
+                    <!-- DataGrid -->
+                    <DataGrid x:Name="dgRoomTypes" Grid.Column="1" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dgRoomTypes_SelectionChanged" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding RoomTypeId}" Width="*"/>
+                            <DataGridTextColumn Header="Name" Binding="{Binding RoomTypeName}" Width="*"/>
+                            <DataGridTextColumn Header="Description" Binding="{Binding TypeDescription}" Width="*"/>
+                            <DataGridTextColumn Header="Note" Binding="{Binding TypeNote}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+
         </TabControl>
     </Grid>
 </Window>
