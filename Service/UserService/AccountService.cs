@@ -46,6 +46,8 @@ namespace Service.UserService
 
         }
 
+
+
         public bool AddCustomer(Customer customer)
         {
             if (customer.EmailAddress.Length < 8 || customer.Password.Length < 2)
@@ -59,6 +61,37 @@ namespace Service.UserService
                 return true;
             }
         }
+
+
+        public ResponeMes<AdminDTO> LoginWithAdmin(string email, string password)
+        {
+            ResponeMes<AdminDTO> ad = new ResponeMes<AdminDTO>();
+            if (email.IsNullOrEmpty() && password.IsNullOrEmpty())
+            {
+                ad.Isuccess = false;
+
+            }
+            else
+            {
+                var p = repo.LoginWithAdmin(email, password);
+                if (p != null)
+                {
+                    ad.Value = p;
+                    ad.Isuccess = true;
+                }
+                else
+                {
+                    ad.Isuccess = false;
+                }
+
+            }
+            return ad;
+
+        }
+
+
+
+
 
 
 
