@@ -33,6 +33,8 @@ namespace Repository.User
             }
         }
 
+
+
         public bool AddCustomer(Customer customer)
         {
             var p = context.Customers.FirstOrDefault(x => x.EmailAddress.Equals(customer.EmailAddress));

@@ -65,7 +65,7 @@ namespace Service.UserService
 
         public ResponeMes<AdminDTO> LoginWithAdmin(string email, string password)
         {
-            ResponeMes<AdminDTO> ad = new ResponeMes<AdminDTO>();
+            ResponeMes<AdminDTO> ad = new ResponeMes<AdminDTO>();//cái phễu
             if (email.IsNullOrEmpty() && password.IsNullOrEmpty())
             {
                 ad.Isuccess = false;
@@ -83,7 +83,6 @@ namespace Service.UserService
                 {
                     ad.Isuccess = false;
                 }
-
             }
             return ad;
 

@@ -18,6 +18,8 @@ namespace Repository.RoomRepo
             context = new FuminiHotelManagementContext();
         }
 
+            
+
         public List<RoomTypeDTO> GetAll()
         {
             List<RoomTypeDTO> room = new List<RoomTypeDTO>();
@@ -27,8 +29,7 @@ namespace Repository.RoomRepo
                 foreach (var roomType in list)
                 {
                     room.Add(TransferModelsDTO.MappRoomTypeDTO(roomType));
-                }
-              
+                }          
             }
             return room;
         }
@@ -40,7 +41,7 @@ namespace Repository.RoomRepo
                 p.TypeDescription = roomType.TypeDescription;
                 p.TypeNote = roomType.TypeNote;
                 context.SaveChanges();
-  
+
         }
 
 
@@ -56,6 +57,7 @@ namespace Repository.RoomRepo
             context.RoomTypes.Add(roomType);
             context.SaveChanges();
         }
+
 
         public RoomTypeDTO SearchById(int roomTypeId)
         {
@@ -79,11 +81,6 @@ namespace Repository.RoomRepo
             }
             return cus;
         }
-
-
-
-
-
 
 
 
