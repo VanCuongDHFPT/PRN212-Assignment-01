@@ -24,6 +24,7 @@ namespace PRN212_Assignment_01
     {
         CutomerService cutomerService;
         RoomTypeService roomTypeService;
+        BookingDetailService bookingDetailService;
 
 
         public HomeWindow(AdminDTO value)
@@ -31,8 +32,13 @@ namespace PRN212_Assignment_01
             InitializeComponent();
             cutomerService = new CutomerService();
             roomTypeService = new RoomTypeService();
+            bookingDetailService = new BookingDetailService();
             dgCustomers.ItemsSource = cutomerService.ViewCustomer();
             dgRoomTypes.ItemsSource = roomTypeService.ViewRoomType();
+      
+
+            var reportData = bookingDetailService.GetBookingDetailsReport();
+            dgBookingReport.ItemsSource = reportData;
             txtWelcome.Text = "Hi," + "Admin";
         }
 
@@ -41,8 +47,11 @@ namespace PRN212_Assignment_01
             InitializeComponent();
             cutomerService = new CutomerService();
             roomTypeService = new RoomTypeService();
+            bookingDetailService = new BookingDetailService();
             dgCustomers.ItemsSource = cutomerService.ViewCustomer();
             dgRoomTypes.ItemsSource = roomTypeService.ViewRoomType();
+            var reportData = bookingDetailService.GetBookingDetailsReport();
+            dgBookingReport.ItemsSource = reportData;
             txtWelcome.Text = "Hi," + value.CustomerFullName;
             handerRole(value.RoleId);
         }
@@ -66,7 +75,6 @@ namespace PRN212_Assignment_01
                 dpDOB.SelectedDate = selected.CustomerBirthday;
                 txtCustomerstatus.Text = selected.CustomerStatus.ToString();
             }
-
         }
 
         private void handerRole(int? roleID)
@@ -287,6 +295,8 @@ namespace PRN212_Assignment_01
             this.Close();
         }
     }
+
+
 
 
 
