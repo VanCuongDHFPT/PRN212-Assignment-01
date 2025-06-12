@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PRN212_Assignment_01"
         mc:Ignorable="d"
         Title="CustomerHomeWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,0,0,-6">
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
             <RowDefinition Height="*"/>
@@ -84,7 +84,39 @@
                 </Grid>
             </TabItem>
 
+            <TabItem Header="Booking Reservation" Height="22" Margin="-2,-2,-2,0" VerticalAlignment="Top">
+                <Grid Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="350"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- FORM -->
+                    <StackPanel Grid.Column="0" Margin="0,0,20,0">
+                        <TextBlock Text="Booking Info" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+
+                        <!-- Search -->
+                        <StackPanel Orientation="Horizontal" Margin="0,0,0,10"/>
+
+                        <!-- Buttons -->
+                        <WrapPanel Margin="0,10"/>
+                    </StackPanel>
+
+                    <!-- DataGrid -->
+                    <DataGrid x:Name="dgCustomers" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dgCustomers_SelectionChanged" Margin="0,26,10,24" Grid.ColumnSpan="2">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding BookingReservationID}" Width="*"/>
+                            <DataGridTextColumn Header="Booking Date" Binding="{Binding BookingDate}" Width="*"/>
+                            <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button Content="View" HorizontalAlignment="Left" Margin="125,2,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
+                </Grid>
+            </TabItem>
+
 
         </TabControl>
+
+
     </Grid>
 </Window>

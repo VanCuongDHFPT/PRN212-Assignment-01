@@ -90,5 +90,10 @@ namespace PRN212_Assignment_01
         {
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
