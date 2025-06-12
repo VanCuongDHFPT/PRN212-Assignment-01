@@ -85,3 +85,91 @@ D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net
 D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.pdb
 D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.genruntimeconfig.cache
 D:\Summer2025\PRN212\ASM\PRN212 Assignment 01\PRN212 Assignment 01\obj\Debug\net8.0-windows\ref\PRN212 Assignment 01.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\PRN212 Assignment 01.exe
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\appsettings.json
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\PRN212 Assignment 01.deps.json
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\PRN212 Assignment 01.runtimeconfig.json
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\PRN212 Assignment 01.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\PRN212 Assignment 01.pdb
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\DataAccess.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Repository.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Service.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Service.pdb
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\DataAccess.pdb
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\bin\Debug\net8.0-windows\Repository.pdb
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.csproj.AssemblyReference.cache
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\HomeWindow.baml
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\HomeWindow.g.cs
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\LoginWindow.g.cs
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\RegisterWindow.g.cs
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\App.g.cs
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01_MarkupCompile.cache
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01_MarkupCompile.lref
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\LoginWindow.baml
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\RegisterWindow.baml
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.g.resources
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.GeneratedMSBuildEditorConfig.editorconfig
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.AssemblyInfoInputs.cache
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.AssemblyInfo.cs
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.csproj.CoreCompileInputs.cache
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.sourcelink.json
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 A.4A89B323.Up2Date
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\refint\PRN212 Assignment 01.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.pdb
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\PRN212 Assignment 01.genruntimeconfig.cache
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\ref\PRN212 Assignment 01.dll
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\CustomerHomeWindow.g.cs
+D:\File_Bai_Hoc\PRN201\Project\Asm1\PRN212-Assignment-01\PRN212 Assignment 01\obj\Debug\net8.0-windows\CustomerHomeWindow.baml

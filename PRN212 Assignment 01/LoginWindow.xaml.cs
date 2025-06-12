@@ -30,19 +30,38 @@ namespace PRN212_Assignment_01
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             accountService = new();
+            
             string email = txtemail.Text;
             string password = txtPassword.Password;
-            var p = accountService.Login(email, password);
-            if (p.Isuccess == false)
+            if(email == "admin@FUMiniHotelSystem.com")
             {
-                MessageBox.Show("Login in errors", "Please try login try again", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-            else
+                var p = accountService.Login(email, password);
+                if (p.Isuccess == false)
+                {
+                    MessageBox.Show("Login in errors", "Please try login try again", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                else
+                {
+                    HomeWindow home = new HomeWindow(p.Value);
+                    this.Hide();
+                    home.Show();
+                }
+            } else
             {
-                HomeWindow home = new HomeWindow(p.Value);
-                this.Hide();
-                home.Show();
+                var p = accountService.Login(email, password);
+                if (p.Isuccess == false)
+                {
+                    MessageBox.Show("Login in errors", "Please try login try again", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                else
+                {
+                    CustomerHomeWindow home = new CustomerHomeWindow(p.Value);
+                    this.Hide();
+                    home.Show();
+                }
             }
+                
+            
 
         }
 

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Service\\Service.csproj": {}
+    "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Service\\Service.csproj": {}
   },
   "projects": {
-    "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\DataAccess\\DataAccess.csproj": {
+    "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-        "outputPath": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\DataAccess\\obj\\",
+        "projectPath": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -95,24 +96,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Repository\\Repository.csproj": {
+    "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Repository\\Repository.csproj",
+        "projectUniqueName": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-        "outputPath": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Repository\\obj\\",
+        "projectPath": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,14 +122,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\DataAccess\\DataAccess.csproj"
+              "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -143,7 +145,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -164,24 +166,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Service\\Service.csproj": {
+    "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-        "outputPath": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Service\\obj\\",
+        "projectPath": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -190,14 +192,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Repository\\Repository.csproj": {
-                "projectPath": "D:\\Summer2025\\PRN212\\ASM\\PRN212 Assignment 01\\Repository\\Repository.csproj"
+              "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\File_Bai_Hoc\\PRN201\\Project\\Asm1\\PRN212-Assignment-01\\Repository\\Repository.csproj"
               }
             }
           }
@@ -212,7 +215,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -233,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
