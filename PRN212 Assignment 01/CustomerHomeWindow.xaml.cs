@@ -22,7 +22,7 @@ namespace PRN212_Assignment_01
     public partial class CustomerHomeWindow : Window
     {
         CutomerService customerService;
-
+        BookingReservationService bookingReservationService;
 
         public CustomerHomeWindow(CustomerDTO value)
         {
@@ -91,7 +91,26 @@ namespace PRN212_Assignment_01
             this.Close();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void btnViewBookingReservation_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                int customerId = int.Parse(txtCustomerID.Text);
+                bookingReservationService = new BookingReservationService();
+                List<DataAccess.Models.BookingReservation> bookings = bookingReservationService.GetBookingReservationsByCustomerId(customerId);
+                
+                // Filter out bookings with BookingStatus = 0
+                var filteredBookings = bookings.Where(b => b.BookingStatus != 0).ToList();
+                
+                dgBookingReservation.ItemsSource = filteredBookings;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading booking reservations: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void dgBookingReservation_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }

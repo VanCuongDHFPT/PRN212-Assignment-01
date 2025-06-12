@@ -84,7 +84,7 @@
                 </Grid>
             </TabItem>
 
-            <TabItem Header="Booking Reservation" Height="22" Margin="-2,-2,-2,0" VerticalAlignment="Top">
+            <TabItem Header="Booking Reservation" Height="22" Margin="-2,-2,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="124">
                 <Grid Margin="10">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="350"/>
@@ -103,14 +103,14 @@
                     </StackPanel>
 
                     <!-- DataGrid -->
-                    <DataGrid x:Name="dgCustomers" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dgCustomers_SelectionChanged" Margin="0,26,10,24" Grid.ColumnSpan="2">
+                    <DataGrid x:Name="dgBookingReservation" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dgBookingReservation_SelectionChanged" Margin="0,26,10,24" Grid.ColumnSpan="2">
                         <DataGrid.Columns>
-                            <DataGridTextColumn Header="ID" Binding="{Binding BookingReservationID}" Width="*"/>
+                            <DataGridTextColumn Header="ID" Binding="{Binding BookingReservationId}" Width="*"/>
                             <DataGridTextColumn Header="Booking Date" Binding="{Binding BookingDate}" Width="*"/>
                             <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice}" Width="*"/>
                         </DataGrid.Columns>
                     </DataGrid>
-                    <Button Content="View" HorizontalAlignment="Left" Margin="125,2,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_1"/>
+                    <Button x:Name="btnViewBookingReservation" Content="View" HorizontalAlignment="Left" Margin="125,2,0,0" VerticalAlignment="Top" Width="50" Click="btnViewBookingReservation_Click"/>
                 </Grid>
             </TabItem>
 
