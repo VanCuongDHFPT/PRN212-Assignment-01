@@ -35,7 +35,65 @@ namespace Repository.Helper
             customer.Password = customerDTO.Password;
             return customer;
 
-
         }
+
+        public static AdminDTO MappAdmin(Admin admin)
+        {
+            AdminDTO adminDTO = new AdminDTO();
+            adminDTO.Email = admin.Email;
+            adminDTO.Password = admin.Password;
+            adminDTO.RoleId = admin.RoleId;
+            return adminDTO;
+        }
+
+
+        public static RoomInformation MapRoom(RoomInformationDTO dto)
+        {
+            return new RoomInformation
+            {
+                RoomId = dto.RoomId,
+                RoomNumber = dto.RoomNumber,
+                RoomDetailDescription = dto.RoomDetailDescription,
+                RoomPricePerDay = dto.RoomPricePerDay,
+                RoomTypeId = dto.RoomTypeId,
+                RoomMaxCapacity = dto.RoomMaxCapacity,
+                RoomStatus = dto.RoomStatus
+            };
+        }
+        public static RoomInformationDTO MapRoomDTO(RoomInformation entity)
+        {
+            return new RoomInformationDTO
+            {
+                RoomId = entity.RoomId,
+                RoomNumber = entity.RoomNumber,
+                RoomDetailDescription = entity.RoomDetailDescription,
+                RoomPricePerDay = entity.RoomPricePerDay,
+                RoomTypeId = entity.RoomTypeId,
+                RoomMaxCapacity = entity.RoomMaxCapacity,
+                RoomStatus = entity.RoomStatus
+            };
+        }
+
+        public static RoomTypeDTO MappRoomTypeDTO(RoomType roomType)
+        {
+            RoomTypeDTO roomTypeDTO = new RoomTypeDTO();
+            roomTypeDTO.RoomTypeName = roomType.RoomTypeName;
+            roomTypeDTO.RoomTypeId = roomType.RoomTypeId;
+            roomTypeDTO.TypeNote = roomType.TypeNote;
+            roomTypeDTO.TypeDescription = roomType.TypeDescription; 
+            return roomTypeDTO;
+        }
+
+        public static RoomType MappRoomType(RoomTypeDTO roomTypeDTO)
+        {
+            RoomType roomType = new RoomType();
+            roomType.RoomTypeName = roomTypeDTO.RoomTypeName;
+            roomType.RoomTypeId = roomTypeDTO.RoomTypeId;
+            roomType.TypeDescription = roomTypeDTO.TypeDescription;
+            roomType.TypeNote = roomTypeDTO.TypeNote;
+            return roomType;
+        }
+
+      
     }
 }
